@@ -17,7 +17,7 @@ tauri-build = { version = "2.0.3", features = [] }
 [dependencies]
 # Tauri
 tauri = { version = "2.1.1", features = ["tray-icon", "image-png", "config-json5", "devtools"] }
-tauri-plugin-shell = "2.0.2"
+tauri-plugin-shell = "2.2.1"
 tauri-plugin-dialog = "2.0.3"
 tauri-plugin-clipboard-manager = "2.0.2"
 tauri-plugin-os = "2.0.1"
@@ -38,7 +38,7 @@ rust-ini = "0.20.0"
 dataurl = "0.1.2"
 uuid = "1.6.1"
 lazy_static = "1.4.0"
-tokio = { version = "1.35.0", features = ["macros"] }
+tokio = { version = "1.43.1", features = ["macros"] }
 cached = "0.46.1"
 notify-rust = "4.10.0"
 assert_matches = "1.5.0"
@@ -57,7 +57,7 @@ dark-light = { git = "https://github.com/vlabo/rust-dark-light", rev = "1f955c84
 
 # Linux only
 [target.'cfg(target_os = "linux")'.dependencies]
-glib = "0.18.4"
+glib = "0.20.0"
 gtk-sys = "0.18.0"
 glib-sys = "0.18.1"
 gdk-pixbuf = "0.18.3"
